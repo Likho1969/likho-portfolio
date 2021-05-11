@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../images/likho.JPG);
+  height: 700%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+
+/* The navigation bar */
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-height: 340px;
+
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+/* Links inside the navbar */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+#navbar a:hover {
+  background: blue;
+  color: white;
+}
+
+.text {
+  color: black;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text.con {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h2 {
+  margin-top: 300px;
+  margin-bottom: 10px;
+
+  font-size: 30px;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff,
+      0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00;
+  }
+}
+
+p {
+  letter-spacing: 0;
+  line-height: 1.8;
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.button a {
+  background-color: red;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 35px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 30px;
+  letter-spacing: 3px;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+.button a:hover {
+  color: red;
+  background-color: blue;
+  transition: 1s;
+}

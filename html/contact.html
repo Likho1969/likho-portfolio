@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../glass.css">
+</head>
+<body>
+    <form
+    class="contact-form"
+    action="https://formspree.io/f/mwkapwoy"
+    method="GET"
+  >
+    <!-- Contact heading -->
+    <h1 class="heading">Contact Form</h1>
+
+    <!-- Full name -->
+    <div class="form-group">
+      <label class="form-label" for="name">Your Full name</label>
+      <input
+        class="form-input"
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Full Name"
+        required
+      />
+    </div>
+
+    <!-- Email address -->
+    <div class="form-group">
+      <label class="form-label" for="email"> Your email address: </label>
+      <input
+        class="form-input"
+        type="email"
+        name="_replyto"
+        id="email"
+        placeholder="example@gmail.com"
+        required
+      />
+    </div>
+
+    <!-- Cellphone number -->
+    <div class="form-group">
+      <label class="form-label" for="cellno">Cellphone number:</label>
+      <input
+        class="form-input"
+        type="tel"
+        name="cellno"
+        id="cellno"
+        placeholder="078 567 445"
+        required
+      />
+    </div>
+
+    <!-- Telephone number -->
+    <div class="form-group">
+      <label class="form-label" for="telno">Telephone number:</label>
+      <input
+        class="form-input"
+        type="tel"
+        name="telno"
+        id="telno"
+        placeholder="021 695 678"
+        required
+      />
+    </div>
+
+    <!-- Message box -->
+    <div class="form-group">
+      <label class="form-label" for="message">
+        Your message:
+        <textarea
+          class="form-input"
+          type="message"
+          name="message"
+          id="message"
+          placeholder="Type anything"
+          required
+        ></textarea>
+      </label>
+    </div>
+
+    <button class="button" type="submit">
+        <a href="https://formspree.io/f/mwkapwoy">Submit</a>
+    </button>
+  </form>
+
+</body>
+</html>

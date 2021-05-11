@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.main {
+  padding: 80px 0;
+}
+
+/* ABOUT */
+@meadia (min-width: 992px) .about {
+  width: 100%;
+}
+
+.about {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.red {
+  height: 2px;
+  width: 200px;
+  background: red;
+  margin: auto;
+}
+
+.green {
+  height: 2px;
+  width: 150px;
+  background: green;
+  margin: 15px auto;
+}
+
+/* CONTENT */
+.content {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  margin-top: 160px;
+}
+
+.picture {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  float: left;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  float: left;
+
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.buttons {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+
+  position: relative;
+  vertical-align: middle;
+}
+
+.bttn {
+  display: table-cell;
+  float: none;
+  width: 1%;
+
+  position: relative;
+  vertical-align: middle;
+}
+
+.bttn .btn-primary {
+  color: red;
+  border-color: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button > .bttn .btn {
+  width: 100%;
+}
+
+.bttn > .btn:first-child {
+  margin-left: 0;
+}
+
+.bttn > .btn {
+  position: relative;
+  float: left;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-left: 40px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a {
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+.bttn {
+  margin-left: -1;
+}
+
+.button > .bttn {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+
+.bttn {
+  position: relative;
+  vertical-align: middle;
+}
+
+.bttn .bttn .btn-default {
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+}
+
+.bttn > .btn:first-child {
+  margin-left: 0;
+}
+
+.bttn > .btn {
+  position: relative;
+  float: left;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tab-pane h4 {
+  font-weight: 600;
+  color: blue;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 1.1;
+  padding-left: 40px;
+}
+
+span {
+  color: red;
+}
+
+p {
+  letter-spacing: 0;
+  line-height: 1.8;
+  margin: 0 0 10px;
+  padding-left: 40px;
+}
+
+.my-content img {
+  margin-top: 20px;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.socials {
+  display: flex;
+  letter-spacing: 20px;
+  padding-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.fa-whatsapp:hover {
+  background-color: limegreen;
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.fa-facebook-f:hover {
+  background-color: rgb(0, 110, 255);
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.fa-twitter:hover {
+  background-color: rgb(0, 174, 255);
+  color: #ffffff;
+  border-radius: 100px;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.footer-area {
+  background: black;
+  color: #ffffff;
+  padding: 30px 0;
+}
