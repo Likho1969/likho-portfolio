@@ -6,11 +6,35 @@
 
 body {
   font-family: sans-serif;
-  background-image: url(../images/likho.JPG);
-  height: 700%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   float: right;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-area {
+  background-image: url(../images/[removal.ai]_tmp-609a30ba34d6d.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.banner-table {
+  display: table;
+  margin: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.banner-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /* The navigation bar */
@@ -35,7 +59,7 @@ body {
 #navbar a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -49,6 +73,8 @@ body {
 
 .text {
   color: black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -63,19 +89,19 @@ body {
   margin-left: -15px;
 }
 
-.text.con {
-  float: left;
+.text-con {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
   padding-left: 15px;
+  padding-left: 15px;
+  margin-right: 50px;
+  margin-top: 400px;
 }
 
 h2 {
   margin-top: 300px;
   margin-bottom: 10px;
 
-  font-size: 30px;
   color: #fff;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -110,7 +136,7 @@ p {
   text-decoration: none;
   padding: 10px 35px;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 90px;
   border-radius: 30px;
   letter-spacing: 3px;
 }
@@ -123,4 +149,17 @@ a {
   color: red;
   background-color: blue;
   transition: 1s;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: red;
+}
+
+.btn-toggle {
+  padding: 2px;
+  display: inline-block;
+  border: 2px solid red;
 }

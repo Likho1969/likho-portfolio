@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-padding {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.services-area {
+  background-color: lightgray;
+  height: 100vh;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-md-12 {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 15px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.section-header .red {
+  width: 200px;
+  height: 2px;
+  background-color: red;
+  margin: auto;
+}
+
+p {
+  letter-spacing: 0;
+  line-height: 1.8;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.section-header .green {
+  width: 150px;
+  height: 2px;
+  background-color: green;
+  margin: 15px auto;
+}
+
+.col-xs-12 {
+  float: left;
+  width: 100%;
+
+  min-height: 1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(min-width: 992px){
+  .col-x2-12{
+    width: 33.33333333%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-services {
+    margin-bottom: 31px;
+  }
+}
+
+.single-services {
+  box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.services-icon {
+  display: inline-block;
+  border: 1px solid blue;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: blue;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+.services-content {
+  text-transform: uppercase;
+  line-height: 1.9;
+  padding-right: 70px;
+  padding-left: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+}
