@@ -7,7 +7,94 @@
 body {
   font-family: sans-serif;
   background: black;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+
+#name {
+  background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+  -webkit-background-clip: name;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.Navbar {
+  background-color: transparent;
+  position: sticky;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  top: 0;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  background: blue;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .main {
@@ -51,14 +138,14 @@ h2 {
   margin-top: 160px;
 }
 
-@media only screen and (min-width: 480px){
-  .content{
+@media only screen and (min-width: 480px) {
+  .content {
     width: 60%;
   }
 }
 
-@media only screen and (min-width: 3700){
-  .content{
+@media only screen and (min-width: 3700) {
+  .content {
     width: 3;
   }
 }
@@ -87,106 +174,6 @@ h2 {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-.buttons {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: separate;
-
-  position: relative;
-  vertical-align: middle;
-}
-
-.bttn {
-  display: table-cell;
-  float: none;
-  width: 1%;
-
-  position: relative;
-  vertical-align: middle;
-}
-
-.bttn .btn-primary {
-  color: red;
-  border-color: transparent;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.buttons > .bttn .btn {
-  width: 100%;
-}
-
-.bttn > .btn:first-child {
-  margin-left: 0;
-}
-
-.bttn > .btn {
-  position: relative;
-  float: left;
-}
-
-.btn {
-  display: inline-block;
-  text-align: center;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  padding-left: 40px;
-  color: red;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-a {
-  transition: all 0.4s;
-  text-decoration: none;
-}
-
-.bttn {
-  margin-left: -1;
-}
-
-.btn-primary:hover{
-  background: #0000ff;
-  color: white;
-  font-size: 30px;
-  transition: 1s;
-}
-
-.btn-default:hover{
-  background-color: red;
-  color: #ffffff;
-  font-size: 30px;
-  transition: 1s;
-}
-
-.buttons > .bttn {
-  display: table-cell;
-  float: none;
-  width: 1%;
-}
-
-.bttn {
-  position: relative;
-  vertical-align: middle;
-}
-
-.bttn .bttn .btn-default {
-  background-color: transparent;
-  color: black;
-  border-color: transparent;
-}
-
-.bttn > .btn:first-child {
-  margin-left: 0;
-}
-
-.bttn > .btn {
-  position: relative;
-  float: left;
 }
 
 @media only screen and (max-width: 767px) {
@@ -250,7 +237,7 @@ p {
   font-size: 20px;
 }
 
-.fa-whatsapp{
+.fa-whatsapp {
   color: limegreen;
 }
 
@@ -262,7 +249,7 @@ p {
   transition: 1s;
 }
 
-.fa-facebook-f{
+.fa-facebook-f {
   color: rgb(0, 110, 225);
 }
 
@@ -274,7 +261,7 @@ p {
   transition: 1s;
 }
 
-.fa-twitter{
+.fa-twitter {
   color: rgb(0, 174, 255);
 }
 
@@ -304,6 +291,67 @@ p {
   }
 }
 
-.signature{
+.signature {
   background-color: lightslategrey;
 }
+
+.intro {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.my-skills {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 700px;
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+.fa-html5 {
+  color: orange;
+}
+
+.html .fa-html5:hover {
+  font-size: 60px;
+}
+
+.fa-css3-alt {
+  color: rgb(4, 115, 219);
+  padding-top: 50px;
+}
+
+.fa-css3-alt:hover {
+  font-size: 60px;
+}
+
+.fa-js {
+  color: yellow;
+  padding-top: 50px;
+}
+
+.fa-js:hover {
+  font-size: 60px;
+}
+
+.fa-python {
+  padding-top: 50px;
+}
+
+.fa-python:hover {
+  font-size: 60px;
+}
+
+.education {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 300px;
+}
+
+

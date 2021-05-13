@@ -14,6 +14,24 @@ body {
   font-family: sans-serif;
   color: white;
 }
+.form-group {
+  background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+  -webkit-background-clip: name;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
 
 #contact-form {
   background: rgba(255, 255, 255, 0.45);

@@ -5,11 +5,98 @@
 }
 
 body {
-  background-image: url(./images/mountain.jpeg);
+  font-family: sans-serif;
+  background-color: black;
+  background-image: url(../images/pexels-pixabay-459301.jpg);
+}
+
+#name {
+  background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+  -webkit-background-clip: name;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.Navbar {
+  background-color: transparent;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  top: 0;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  background: blue;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .landing {
-  min-height: 100vh;
+  min-height: 70vh;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -20,28 +107,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/images.jpeg);
 
   font-size: 20px;
-  color: black;
+  color: rgb(216, 9, 9);
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #504dff, 0 0 60px #504dff, 0 0 70px #504dff, 0 0 80px #504dff;
-  }
+span {
+  color: green;
 }
 
 body {
-  background-color: black;
+  background-image: url(../images/pexels-luck-galindo-544268.jpg);
   font-family: sans-serif;
 }
 
@@ -51,13 +129,14 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url(../images/pexels-pixabay-459301.jpg);
 }
 
 .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: blue;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -77,8 +156,8 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(118, 175, 221);
-  border: 4px solid darkslategrey;
+  background-color: rgba(255, 0, 0, 0.603);
+  border: 4px solid red;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -86,12 +165,12 @@ body {
 
 .left {
   left: 0;
-  background-image: url(./images/lightning.jpeg);
+  background-image: url(../images/rm218batch4-katie-17.jpg);
 }
 
 .right {
   left: 50%;
-  background-image: url(./images/waterfall.jpg);
+  background-image: url(../images/pexels-pixabay-459203.jpg);
 }
 
 .left::before {
