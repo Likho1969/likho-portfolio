@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
 }
 
-
 #name {
   background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
   -webkit-background-clip: name;
@@ -306,7 +305,7 @@ p {
   text-align: center;
   color: #ffffff;
   font-size: 30px;
-  margin-top: 700px;
+  margin-top: 800px;
 }
 
 .skills {
@@ -343,15 +342,92 @@ p {
   padding-top: 50px;
 }
 
-.fa-python:hover {
+.python:hover {
   font-size: 60px;
+}
+
+.python {
+  padding-top: 50px;
+}
+
+.django {
+  padding-top: 50px;
+}
+
+.react {
+  padding-top: 50px;
+}
+
+.mysql {
+  padding-top: 50px;
+}
+
+.fa-windows{
+  padding-top: 50px;
+  color: rgb(0, 132, 255);
+}
+
+.fa-windows:hover{
+  font-size: 40px;
 }
 
 .education {
   text-align: center;
   color: #ffffff;
   font-size: 30px;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
+.container {
+  padding-top: 50px;
+  margin-left: 109px;
+  margin-right: 109px;
+}
 
+.school1 {
+  background-color: lightgray;
+  padding-top: 30px;
+  color: blue;
+  padding-bottom: 20px;
+}
+
+.school2 {
+  background-color: darkcyan;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.school3 {
+  background-color: blue;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.skills-set {
+  color: #ffffff;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.skills-set li {
+  list-style: none;
+}
+
+.sop {
+  color: black;
+}
+
+.footer-area{
+  background-color: lightgray;
+  color: black;
+  height: 10vh;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.fa-heart{
+  color: red;
+}

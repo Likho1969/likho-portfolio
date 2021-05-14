@@ -23,6 +23,7 @@
   position: sticky;
   font-family: sans-serif;
   margin-top: 20px;
+  margin-bottom: 150px;
   margin-right: 20px;
   margin-left: 20px;
   display: flex;
@@ -196,6 +197,19 @@ body {
 .button:hover {
   font-size: 1.1em;
   background: rgba(255, 255, 255, 0.8);
+  color: red;
   backdrop-filter: blur(1.1px);
   -webkit-backdrop-filter: blur(1.1px);
+}
+
+.footer-area {
+  background-color: lightgray;
+  color: black;
+  height: 10vh;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.fa-heart {
+  color: red;
 }

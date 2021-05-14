@@ -72,5 +72,24 @@ body {
 }
 
 .button:hover {
-  background-color: red;
+  background-color: blue;
+  color: #ffffff;
+}
+
+.form-input:focus {
+  background-color: black;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer-area{
+  background-color: lightgray;
+  color: black;
+  height: 10vh;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.fa-heart{
+  color: red;
 }

@@ -18,6 +18,7 @@ body {
 .banner-table-cell{
   background-image: url(../images/[removal.ai]_tmp-609a30ba34d6d.png);
   background-repeat: no-repeat;
+
 }
 
 .banner-area{
@@ -172,3 +173,14 @@ a {
   display: inline-block;
   border: 2px solid red;
 }
+
+.fa-github-square{
+  color: black;
+  font-size: 30px;
+}
+
+.fa-github-square:hover{
+  color: #0000ff;
+  font-size: 40px;
+}
+
